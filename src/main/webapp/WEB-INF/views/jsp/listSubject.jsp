@@ -480,8 +480,8 @@
                                                         </div>
                                                     </td>
                                                     <td>${subject.subjectId}</td>
-                                                    <td>${subject.subjectName}</td>
-                                                    <td>${subject.studentNumber}</td>
+                                                    <td><c:out value="${subject.subjectName}"/></td>
+                                                    <td><c:out value="${subject.studentNumber}"/></td>
                                                     <td>${subject.avgScore}</td>
                                                     <td>
                                                         <div class="hidden-sm hidden-xs btn-group">

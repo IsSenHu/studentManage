@@ -333,7 +333,7 @@
                                     <table class="table table-bordered" style="text-align: center;">
                                         <tr>
                                             <td style="width: 20%;">姓名:</td>
-                                            <td><input type="text" class="form-control" name="studentName" value="${student.studentName}" placeholder="请输入姓名"/></td>
+                                            <td><input type="text" class="form-control" name="studentName" value="<c:out value="${student.studentName}"/>" placeholder="请输入姓名"/></td>
                                         </tr>
                                         <tr>
                                             <td>性别:</td>
@@ -354,7 +354,7 @@
                                                 <select name="gradeVO.gradeId" class="form-control">
                                                     <c:forEach items="${grades}" var="grade">
                                                         <option <c:if test="${student.gradeVO.gradeId == grade.gradeId}">selected="selected"</c:if> value="${grade.gradeId}">
-                                                                ${grade.gradeName}
+                                                                <c:out value="${grade.gradeName}"/>
                                                         </option>
                                                     </c:forEach>
                                                 </select>

@@ -367,8 +367,8 @@
                                                         </div>
                                                     </td>
                                                     <td>${student.id}</td>
-                                                    <td>${student.studentId}</td>
-                                                    <td>${student.studentName}</td>
+                                                    <td><c:out value="${student.studentId}"/></td>
+                                                    <td><c:out value="${student.studentName}"/></td>
                                                     <td>
                                                         <c:if test="${student.gender.value == 11}">
                                                             男
@@ -378,8 +378,8 @@
                                                         </c:if>
                                                     </td>
                                                     <td><fmt:formatDate value="${student.birthday}" pattern="yyyy年MM月dd日"/></td>
-                                                    <td>${student.gradePO.gradeName}</td>
-                                                    <td>${student.subjectNumber}</td>
+                                                    <td><c:out value="${student.gradePO.gradeName}"/></td>
+                                                    <td><c:out value="${student.subjectNumber}"/></td>
                                                     <td>${student.avgScore}</td>
                                                     <td>
                                                         <a href="${pageContext.request.contextPath}/toInputScore.action?id=${student.id}">

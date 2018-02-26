@@ -332,7 +332,7 @@
                                     <table class="table table-bordered" style="text-align: center;">
                                         <tr>
                                             <td style="width: 20%;">学科名:</td>
-                                            <td><input type="text" class="form-control" value="${subject.subjectName}" name="subjectName" placeholder="请输入学科名"/></td>
+                                            <td><input type="text" class="form-control" value="<c:out value="${subject.subjectName}"/>" name="subjectName" placeholder="请输入学科名"/></td>
                                         </tr>
                                         <tr>
                                             <td>照片:</td>

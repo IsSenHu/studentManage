@@ -352,8 +352,8 @@
                                             <c:forEach items="${page.content}" var="grade">
                                                 <tr>
                                                     <td>${grade.gradeId}</td>
-                                                    <td>${grade.gradeName}</td>
-                                                    <td>${grade.studentNumber}</td>
+                                                    <td><c:out value="${grade.gradeName}"/></td>
+                                                    <td><c:out value="${grade.studentNumber}"/></td>
                                                     <td>${grade.avgScore}</td>
                                                     <td>
                                                         <div class="hidden-sm hidden-xs btn-group">

@@ -338,7 +338,7 @@
                                             <td>
                                                 <select name="subjectPO.subjectId" class="form-control">
                                                     <c:forEach items="${subjects}" var="subject">
-                                                        <option value="${subject.subjectId}">${subject.subjectName}</option>
+                                                        <option value="${subject.subjectId}"><c:out value="${subject.subjectName}"/></option>
                                                     </c:forEach>
                                                 </select>
                                             </td>

@@ -332,7 +332,7 @@
                                     <table class="table table-bordered" style="text-align: center;">
                                         <tr>
                                             <td style="width: 20%;">班级名:</td>
-                                            <td><input type="text" class="form-control" name="gradeName" value="${grade.gradeName}" placeholder="请输入班级名"/></td>
+                                            <td><input type="text" class="form-control" name="gradeName" value="<c:out value="${grade.gradeName}"/>" placeholder="请输入班级名"/></td>
                                         </tr>
                                         <tr>
                                             <td></td>
