@@ -50,6 +50,8 @@ public class StudentPO implements Serializable {
     //学生所选的科目的平均分
     @OneToMany(mappedBy = "studentPO", fetch = FetchType.LAZY, cascade = {CascadeType.ALL})
     private List<ScorePO> scorePOS = new ArrayList<>();
+    @OneToMany(mappedBy = "studentPO", cascade = CascadeType.ALL)
+    private List<StudentSubjectPO> studentSubjectPOS = new ArrayList<>();
 
     public Integer getId() {
         return id;
@@ -168,5 +170,13 @@ public class StudentPO implements Serializable {
     @Override
     public int hashCode() {
         return Objects.hash(id);
+    }
+
+    public List<StudentSubjectPO> getStudentSubjectPOS() {
+        return studentSubjectPOS;
+    }
+
+    public void setStudentSubjectPOS(List<StudentSubjectPO> studentSubjectPOS) {
+        this.studentSubjectPOS = studentSubjectPOS;
     }
 }

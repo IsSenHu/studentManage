@@ -30,6 +30,8 @@ public class SubjectPO implements Serializable {
     //该学科的分数集合
     @OneToMany(mappedBy = "subjectPO", fetch = FetchType.LAZY, cascade = {CascadeType.REMOVE})
     private List<ScorePO> scorePOS = new ArrayList<>();
+    @OneToMany(mappedBy = "subjectPO", cascade = CascadeType.ALL)
+    private List<StudentSubjectPO> studentSubjectPOS = new ArrayList<>();
     public String getPicPath() {
         return picPath;
     }
