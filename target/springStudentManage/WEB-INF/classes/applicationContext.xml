@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:tx="http://www.springframework.org/schema/tx"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xmlns:jpa="http://www.springframework.org/schema/data/jpa"
+       xmlns:rabbit="http://www.springframework.org/schema/rabbit"
+       xmlns:cache="http://www.springframework.org/schema/cache"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd
+       http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx.xsd
+       http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context.xsd
+       http://www.springframework.org/schema/cache  http://www.springframework.org/schema/cache/spring-cache.xsd
+       http://www.springframework.org/schema/rabbit  http://www.springframework.org/schema/rabbit/spring-rabbit-2.0.xsd
+       http://www.springframework.org/schema/data/jpa  http://www.springframework.org/schema/data/jpa/spring-jpa.xsd">
+    <!-- 加载c3p0和redis配置文件，配置文件中的key命名要有一定的规则 -->
+    <bean id="propertyConfigurer" class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+        <property name="locations">
+            <list>
+                <value>classpath:c3p0-config.properties</value>
+                <value>classpath:rabbitmq.properties</value>
+            </list>
+        </property>
+    </bean>
+    <!-- 配置c3p0连接池 -->
+    <bean id="dataSource" class="com.mchange.v2.c3p0.ComboPooledDataSource">
+        <property name="driverClass" value="${db.driverClass}"/>
+        <property name="jdbcUrl" value="${db.jdbcUrl}"/>
+        <property name="user" value="${db.username}"/>
+        <property name="password" value="${db.password}"/>
+        <property name="acquireIncrement" value="${db.acquireIncrement}"/>
+        <property name="initialPoolSize" value="${db.initialPoolSize}"/>
+        <property name="minPoolSize" value="${db.minPoolSize}"/>
+        <property name="maxPoolSize" value="${db.maxPoolSize}"/>
+    </bean>
+
+    <!-- 配置EntityManagerFactory -->
+    <bean id="entityManagerFactory" class="org.springframework.orm.jpa.LocalContainerEntityManagerFactoryBean">
+        <property name="dataSource" ref="dataSource"/>
+        <property name="jpaVendorAdapter">
+            <bean class="org.springframework.orm.jpa.vendor.HibernateJpaVendorAdapter"/>
+        </property>
+        <property name="packagesToScan" value="com.biz.std"/>
+        <property name="jpaProperties">
+            <props>
+                <prop key="hibernate.ejb.naming_strategy">org.hibernate.cfg.ImprovedNamingStrategy</prop>
+                <prop key="hibernate.dialect">org.hibernate.dialect.MySQL5InnoDBDialect</prop>
+                <prop key="hibernate.show_sql">true</prop>
+                <prop key="hibernate.format_sql">true</prop>
+                <prop key="hibernate.hbm2ddl.auto">update</prop>
+            </props>
+        </property>
+    </bean>
+    <!-- 配置事务管理器 -->
+    <bean id="transactionManager" class="org.springframework.orm.jpa.JpaTransactionManager">
+        <property name="entityManagerFactory" ref="entityManagerFactory"/>
+    </bean>
+    <!-- 配置支持注解的事务 -->
+    <tx:annotation-driven transaction-manager="transactionManager"/>
+    <!-- 配置spring data -->
+    <jpa:repositories base-package="com.biz.std" entity-manager-factory-ref="entityManagerFactory"/>
+    <!-- 扫描Service和Repository -->
+    <context:component-scan base-package="com.biz.std">
+        <context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
+    </context:component-scan>
+
+    <!-- 配置rabbitmq BEGIN -->
+    <!-- 配置ConnectionFactory，指定连接rabbit server的参数 -->
+    <!--<rabbit:connection-factory id="rabbitConnectionFactory" virtual-host="${rabbitmq.virtualHost}"-->
+                               <!--username="${rabbitmq.username}"-->
+                               <!--password="${rabbitmq.password}"-->
+                               <!--host="${rabbitmq.host}"-->
+                               <!--port="${rabbitmq.port}"/>-->
+    <!--&lt;!&ndash; 通过指定下面的admin信息，当前producer中的exchange和queue会在rabbitmq服务器上自动生成 &ndash;&gt;-->
+    <!--<rabbit:admin id="rabbitAdmin" connection-factory="rabbitConnectionFactory"/>-->
+    <!--&lt;!&ndash; 在 applicationContext.xml 中声明一个队列 &ndash;&gt;-->
+    <!--<rabbit:queue id="sendSmsQueue" name="${rabbitmq.queue}_queue" durable="true" auto-delete="false" exclusive="false" declared-by="rabbitAdmin"></rabbit:queue>-->
+    <!--&lt;!&ndash; 在 applicationContext.xml 中声明一个交换机 &ndash;&gt;-->
+    <!--<rabbit:direct-exchange name="${rabbitmq.queue}_exchange" durable="true" auto-delete="false" declared-by="rabbitAdmin">-->
+        <!--<rabbit:bindings>-->
+            <!--<rabbit:binding queue="sendSmsQueue" key="${rabbitmq.key}"></rabbit:binding>-->
+        <!--</rabbit:bindings>-->
+    <!--</rabbit:direct-exchange>-->
+    <!--&lt;!&ndash; 声明一个 RabbitMQ Template &ndash;&gt;-->
+    <!--<rabbit:template id="ampqTemplate" connection-factory="rabbitConnectionFactory" exchange="send_sms_exchange"></rabbit:template>-->
+     <!--&lt;!&ndash;在 applicationContext.xml 中配置监听及消费者端&ndash;&gt;-->
+     <!--&lt;!&ndash;消费者&ndash;&gt;-->
+    <!--<bean name="rabbitmqService" class="ecjtu.husen.rabbitmq.service.RabbitmqService"></bean>-->
+     <!--&lt;!&ndash;配置监听&ndash;&gt;-->
+    <!--<rabbit:listener-container connection-factory="rabbitConnectionFactory" acknowledge="auto">-->
+        <!--&lt;!&ndash;-->
+<!--　　　　queues 监听队列，多个用逗号分隔-->
+<!--　　　　ref 监听器-->
+<!--　　    &ndash;&gt;-->
+        <!--<rabbit:listener queues="sendSmsQueue" ref="rabbitmqService" method="onMessage"></rabbit:listener>-->
+    <!--</rabbit:listener-container>-->
+    <!--&lt;!&ndash;END&ndash;&gt;-->
+    <!--&lt;!&ndash; 配置shiro BEGIN &ndash;&gt;-->
+    <!--&lt;!&ndash; 配置CacheManager &ndash;&gt;-->
+    <!--<bean id="cacheManager" class="org.apache.shiro.cache.ehcache.EhCacheManager">-->
+        <!--<property name="cacheManagerConfigFile" value="classpath:ehcache.xml"></property>-->
+    <!--</bean>-->
+    <!-- 配置Reaml -->
+    <!--<bean id="jdbcReaml" class="ecjtu.husen.reamls.ShiroRealm">-->
+        <!--&lt;!&ndash; 对密码进行MD5加密 &ndash;&gt;-->
+        <!--<property name="credentialsMatcher">-->
+            <!--<bean class="org.apache.shiro.authc.credential.HashedCredentialsMatcher">-->
+                <!--<property name="hashAlgorithmName" value="MD5"></property>-->
+                <!--&lt;!&ndash; 加密次数 &ndash;&gt;-->
+                <!--<property name="hashIterations" value="1024"></property>-->
+            <!--</bean>-->
+        <!--</property>-->
+    <!--</bean>-->
+    <!--&lt;!&ndash; ========= &ndash;&gt;-->
+    <!--&lt;!&ndash; 配置authenticator &ndash;&gt;-->
+    <!--<bean id="authenticator" class="org.apache.shiro.authc.pam.ModularRealmAuthenticator">-->
+        <!--<property name="realms">-->
+            <!--<list>-->
+                <!--<ref bean="jdbcReaml"/>-->
+            <!--</list>-->
+        <!--</property>-->
+        <!--<property name="authenticationStrategy">-->
+            <!--&lt;!&ndash; 所有reaml验证成功才可通过 &ndash;&gt;-->
+            <!--<bean class="org.apache.shiro.authc.pam.AllSuccessfulStrategy"></bean>-->
+        <!--</property>-->
+    <!--</bean>-->
+    <!--&lt;!&ndash; 授权器 &ndash;&gt;-->
+    <!--<bean id="authorizer" class="org.apache.shiro.authz.ModularRealmAuthorizer">-->
+        <!--<property name="realms">-->
+            <!--<list>-->
+                <!--<ref bean="jdbcReaml"/>-->
+            <!--</list>-->
+        <!--</property>-->
+    <!--</bean>-->
+    <!--&lt;!&ndash; 记住我管理器 &ndash;&gt;-->
+    <!--&lt;!&ndash; 配置securityManager &ndash;&gt;-->
+    <!--<bean id="securityManager" class="org.apache.shiro.web.mgt.DefaultWebSecurityManager">-->
+        <!--<property name="cacheManager" ref="cacheManager"></property>-->
+        <!--<property name="authenticator" ref="authenticator"></property>-->
+        <!--<property name="authorizer" ref="authorizer"></property>-->
+        <!--<property name="realm" ref="jdbcReaml"></property>-->
+    <!--</bean>-->
+    <!--&lt;!&ndash; 配置LifecycleBeanPostProcessor，可以自动的来调用配置在Spring IOC 容器中shiro bean 的生命周期方法 &ndash;&gt;-->
+    <!--<bean id="lifecycleBeanPostProcessor" class="org.apache.shiro.spring.LifecycleBeanPostProcessor"></bean>-->
+    <!--&lt;!&ndash; 启用IOC容器使用shiro的注解，但必须在配置了LifecycleBeanPostProcessor之后才可以使用 &ndash;&gt;-->
+    <!--<bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator" depends-on="lifecycleBeanPostProcessor"></bean>-->
+    <!--<bean class="org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor">-->
+        <!--<property name="securityManager" ref="securityManager"></property>-->
+    <!--</bean>-->
+    <!--<bean class="org.springframework.beans.factory.config.MethodInvokingFactoryBean">-->
+        <!--<property name="staticMethod"-->
+                  <!--value="org.apache.shiro.SecurityUtils.setSecurityManager"></property>-->
+        <!--<property name="arguments" ref="securityManager"></property>-->
+    <!--</bean>-->
+    <!--&lt;!&ndash; casFilter &ndash;&gt;-->
+    <!--<bean id="casFilter" class="org.apache.shiro.cas.CasFilter">-->
+        <!--&lt;!&ndash; 配置验证失败和成功时的页面 &ndash;&gt;-->
+        <!--<property name="failureUrl" value="https://www.husen.com:8444/user.jsp"></property>-->
+        <!--<property name="successUrl" value="https://www.husen.com:8444/index.jsp"></property>-->
+    <!--</bean>-->
+    <!--<bean id="shiroFilter" class="org.apache.shiro.spring.web.ShiroFilterFactoryBean">-->
+        <!--<property name="securityManager" ref="securityManager"></property>-->
+        <!--<property name="loginUrl" value="/toLogin.action"></property>-->
+        <!--<property name="successUrl" value="/toIndex.action"></property>-->
+        <!--<property name="unauthorizedUrl" value="/403.jsp"></property>-->
+        <!--&lt;!&ndash;-->
+            <!--配置哪些页面需要受保护。-->
+            <!--以及访问这些页面需要的权限。-->
+            <!--1).anon 可以匿名访问-->
+            <!--2).authc 必须认证（即登陆）后才可能访问的页面-->
+        <!--&ndash;&gt;-->
+        <!--<property name="filterChainDefinitions">-->
+            <!--<value>-->
+                <!--/toLogin.action = anon-->
+                <!--/toRegist.action = anon-->
+                <!--/shiro/logout = logout-->
+                <!--/to** = authc-->
+            <!--</value>-->
+        <!--</property>-->
+    <!--</bean>-->
+</beans>

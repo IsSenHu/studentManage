@@ -10,7 +10,6 @@ import com.biz.std.repository.StudentRepository;
 import com.biz.std.repository.SubjectRepository;
 import com.biz.std.vo.GradeVO;
 import com.biz.std.vo.StudentVO;
-import com.biz.std.vo.SubjectVO;
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;
@@ -18,8 +17,6 @@ import org.springframework.data.domain.PageRequest;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.stereotype.Service;
-
-import javax.enterprise.inject.spi.Bean;
 import javax.transaction.Transactional;
 import java.math.BigDecimal;
 import java.time.LocalDateTime;
