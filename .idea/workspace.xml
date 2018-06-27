@@ -6,480 +6,7 @@
     </artifacts-to-build>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4f6c186e-9d1a-4ba7-9cc7-b3e90b09daa3" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.1-windows-x64/apache-tomcat-9.0.1/webapps/webdav/.idea/inspectionProfiles/Project_Default.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.1-windows-x64/apache-tomcat-9.0.1/webapps/webdav/.idea/libraries/servlet_api.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.1-windows-x64/apache-tomcat-9.0.1/webapps/webdav/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../../../../apache-tomcat-9.0.1-windows-x64/apache-tomcat-9.0.1/webapps/webdav/.idea/vcs.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/c3p0-config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/controller/GradeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/controller/ScoreController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/controller/StudentController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/controller/SubjectController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/controller/ViewController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/converter/DateConveter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/converter/GenderConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/converter/WebGenderConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/model/GradePO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/model/ScorePO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/model/StudentPO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/model/SubjectPO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/repository/GradeRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/repository/ScoreRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/repository/StudentRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/repository/SubjectRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/service/GradeService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/service/GradeServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/service/ScoreService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/service/ScoreServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/service/StudentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/service/StudentServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/service/SubjectService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/service/SubjectServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/vo/Gender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/vo/GradeVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/vo/StudentVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/biz/std/vo/SubjectVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ehcache.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/log4j2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/rabbitmq.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/springmvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage.war" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/403.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/applicationContext.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/c3p0-config.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/controller/GradeController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/controller/ScoreController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/controller/StudentController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/controller/SubjectController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/controller/ViewController.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/converter/DateConveter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/converter/GenderConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/converter/WebGenderConverter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/model/GradePO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/model/ScorePO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/model/StudentPO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/model/SubjectPO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/repository/GradeRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/repository/ScoreRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/repository/StudentRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/repository/SubjectRepository.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/service/GradeService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/service/GradeServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/service/ScoreService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/service/ScoreServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/service/StudentService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/service/StudentServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/service/SubjectService.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/service/SubjectServiceImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/vo/Gender.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/vo/GradeVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/vo/StudentVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/com/biz/std/vo/SubjectVO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/ehcache.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/log4j.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/log4j2.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/rabbitmq.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/classes/springmvc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/aliyun-sdk-oss-2.8.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/amqp-client-5.0.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/antlr-2.7.7.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/aopalliance-1.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/aspectjrt-1.8.12.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/byte-buddy-1.6.14.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/c3p0-0.9.5.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/classmate-1.3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/commons-beanutils-1.8.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/commons-codec-1.9.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/commons-collections-3.2.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/commons-fileupload-1.3.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/commons-io-2.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/commons-lang-2.5.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/commons-lang3-3.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/commons-logging-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/dom4j-1.6.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/ehcache-3.1.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/ehcache-core-2.5.3.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/ezmorph-1.0.6.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/fastjson-1.2.45.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/guice-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/guice-multibindings-3.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/hibernate-commons-annotations-5.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/hibernate-core-5.2.12.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/hibernate-entitymanager-5.2.12.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/hibernate-jpa-2.1-api-1.0.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/http-client-1.3.0.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/httpclient-4.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/httpcore-4.4.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/jackson-annotations-2.9.0.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/jackson-core-2.9.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/jackson-databind-2.9.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/jandex-2.0.3.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/javassist-3.20.0-GA.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/javax.inject-1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/jboss-logging-3.3.0.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/jboss-transaction-api_1.2_spec-1.0.1.Final.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/jdom-1.1.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/json-lib-2.4-jdk15.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/jstl-1.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/log4j-api-2.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/log4j-core-2.8.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/mchange-commons-java-0.2.11.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/mysql-connector-java-5.1.44.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/shiro-all-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/shiro-core-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/shiro-ehcache-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/shiro-guice-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/shiro-spring-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/shiro-web-1.3.2.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/slf4j-api-1.7.25.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-amqp-2.0.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-aop-5.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-beans-5.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-context-5.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-core-5.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-data-commons-2.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-data-jpa-2.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-expression-5.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-jcl-5.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-jdbc-5.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-messaging-5.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-orm-5.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-rabbit-2.0.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-retry-1.2.1.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-tx-5.0.3.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-web-5.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/lib/spring-webmvc-5.0.2.RELEASE.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/addGrade.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/addStudent.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/addSubject.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/inputScore.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/listGrade.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/listStudent.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/listSubject.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/msg.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/msg2.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/msg3.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/selectSubject.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/updateGrade.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/updateStudent.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/jsp/updateSubject.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/login.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/views/regist.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/WEB-INF/web.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/ace-ie.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/ace-ie.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/ace-part2.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/ace-part2.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/ace-rtl.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/ace-rtl.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/ace-skins.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/ace-skins.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/ace.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/ace.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-colorpicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-colorpicker.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-datepicker3.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-datepicker3.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-datetimepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-datetimepicker.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-duallistbox.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-duallistbox.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-editable.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-editable.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-multiselect.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-multiselect.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-timepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap-timepicker.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/bootstrap.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/chosen.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/chosen.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/colorbox.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/colorbox.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/daterangepicker-bs2.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/daterangepicker-bs3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/daterangepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/daterangepicker.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/dropzone.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/dropzone.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/font-awesome.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/fonts.googleapis.com.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/fonts.googleapis.com_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/fullcalendar.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/fullcalendar.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/jquery-ui.custom.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/jquery-ui.custom.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/jquery-ui.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/jquery-ui.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/jquery.gritter.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/jquery.gritter.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/prettify.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/prettify.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/select2.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/select2.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/ui.jqgrid.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/css/ui.jqgrid.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/font-awesome/4.5.0/css/font-awesome.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/font-awesome/4.5.0/css/font-awesome.min_1.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/font-awesome/4.5.0/fonts/fontawesome-webfont.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/font-awesome/4.5.0/fonts/fontawesome-webfont_1.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/font-awesome/4.5.0/fonts/fontawesome-webfont_1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/font-awesome/4.5.0/fonts/fontawesome-webfont_1.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/font-awesome/4.5.0/fonts/fontawesome-webfont_1.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/font-awesome/4.5.0/fonts/fontawesome-webfont_1.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/fonts/glyphicons-halflings-regular.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/fonts/glyphicons-halflings-regular.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/fonts/glyphicons-halflings-regular.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/fonts/glyphicons-halflings-regular.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/fonts/glyphicons-halflings-regular.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/fonts/glyphicons-halflings-regular_1.eot" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/fonts/glyphicons-halflings-regular_1.svg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/fonts/glyphicons-halflings-regular_1.ttf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/fonts/glyphicons-halflings-regular_1.woff" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/fonts/glyphicons-halflings-regular_1.woff2" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/avatar.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/avatar1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/avatar1_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/avatar2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/avatar2_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/avatar3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/avatar3_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/avatar4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/avatar4_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/avatar5.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/avatar5_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/avatar_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/profile-pic.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/profile-pic_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/user.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/avatars/user_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/bootstrap-colorpicker/alpha-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/bootstrap-colorpicker/alpha-horizontal_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/bootstrap-colorpicker/alpha.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/bootstrap-colorpicker/alpha_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/bootstrap-colorpicker/hue-horizontal.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/bootstrap-colorpicker/hue-horizontal_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/bootstrap-colorpicker/hue.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/bootstrap-colorpicker/hue_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/bootstrap-colorpicker/saturation.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/bootstrap-colorpicker/saturation_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/email/email1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/email/email1_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/email/email2.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/email/email2_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/email/email3.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/email/email3_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/email/email4.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/email/email4_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/image-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/image-1_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/image-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/image-2_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/image-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/image-3_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/image-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/image-4_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/image-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/image-5_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/image-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/image-6_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/thumb-1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/thumb-1_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/thumb-2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/thumb-2_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/thumb-3.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/thumb-3_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/thumb-4.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/thumb-4_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/thumb-5.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/thumb-5_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/thumb-6.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/gallery/thumb-6_1.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/placeholder/165x90.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/placeholder/165x90_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/placeholder/255x150.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/placeholder/255x150_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/placeholder/530x270.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/placeholder/530x270_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/placeholder/550x280.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/images/placeholder/550x280_1.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/ace-editable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/ace-editable.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/ace-elements.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/ace-elements.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/ace-extra.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/ace-extra.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/ace.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/ace.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/autosize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/autosize.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootbox.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootbox_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-colorpicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-colorpicker.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-datepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-datepicker.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-datetimepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-datetimepicker.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-editable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-editable.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-markdown.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-markdown.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-multiselect.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-multiselect.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-tag.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-tag.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-timepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-timepicker.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-wysiwyg.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap-wysiwyg.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/bootstrap.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/buttons.colVis.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/buttons.colVis.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/buttons.flash.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/buttons.flash.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/buttons.html5.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/buttons.html5.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/buttons.print.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/buttons.print.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/chosen.jquery.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/chosen.jquery.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/dataTables.buttons.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/dataTables.buttons.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/dataTables.select.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/dataTables.select.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/daterangepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/daterangepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/daterangepicker.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/dropzone.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/dropzone.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/excanvas.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/excanvas.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/fullcalendar.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/fullcalendar.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/grid.locale-en.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/grid.locale-en_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/holder.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/holder.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/html5shiv.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/html5shiv.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery-1.11.3.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery-1.11.3.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery-2.1.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery-2.1.4.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery-additional-methods.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery-additional-methods.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery-typeahead.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery-typeahead_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery-ui.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery-ui.custom.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery-ui.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery-ui.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.bootstrap-duallistbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.bootstrap-duallistbox.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.colorbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.colorbox.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.dataTables.bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.dataTables.bootstrap.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.dataTables.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.dataTables.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.easypiechart.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.easypiechart.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.flot.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.flot.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.flot.pie.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.flot.pie.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.flot.resize.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.flot.resize.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.gritter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.gritter.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.hotkeys.index.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.hotkeys.index.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.inputlimiter.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.inputlimiter.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.jqGrid.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.jqGrid.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.knob.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.knob.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.maskedinput.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.maskedinput.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.mobile.custom.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.mobile.custom.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.nestable.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.nestable.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.raty.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.raty.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.sparkline.index.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.sparkline.index.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.ui.touch-punch.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.ui.touch-punch.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.validate.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/jquery.validate.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/markdown.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/markdown.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/moment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/moment.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/moment.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/prettify.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/prettify.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/respond.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/respond.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/select2.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/select2.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/spin.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/spin_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/spinbox.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/spinbox.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/tree.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/tree.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/wizard.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/js/wizard.min_1.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/swf/flashExport.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/assets/swf/flashExport_1.swf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/css/bootstrap-datetimepicker.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/css/bootstrap-theme.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/css/bootstrap.min.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/css/daterangepicker-bs3.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/css/daterangepicker.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/css/my.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/image/bg.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/image/bg2.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/img/demo.png" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/img/ymqp.jpg" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/index.jsp" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/js/bootstrap-datetimepicker.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/js/bootstrap-datetimepicker.zh-CN.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/js/bootstrap.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/js/daterangepicker.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/js/jquery-1.12.4.min.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/js/moment.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/springStudentManage/js/my.js" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/biz/std/model/StudentPO.java" afterPath="$PROJECT_DIR$/src/main/java/com/biz/std/model/StudentPO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/biz/std/model/SubjectPO.java" afterPath="$PROJECT_DIR$/src/main/java/com/biz/std/model/SubjectPO.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/biz/std/service/GradeServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/biz/std/service/GradeServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/biz/std/service/ScoreServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/biz/std/service/ScoreServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/biz/std/service/StudentServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/biz/std/service/StudentServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/biz/std/service/SubjectServiceImpl.java" afterPath="$PROJECT_DIR$/src/main/java/com/biz/std/service/SubjectServiceImpl.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/listGrade.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/listGrade.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/listStudent.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/listStudent.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/listSubject.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/listSubject.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/selectSubject.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/selectSubject.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/updateGrade.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/updateGrade.jsp" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/updateStudent.jsp" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/updateStudent.jsp" />
-    </list>
+    <list default="true" id="4f6c186e-9d1a-4ba7-9cc7-b3e90b09daa3" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -501,7 +28,65 @@
     <select />
   </component>
   <component name="FileEditorManager">
-    <leaf />
+    <leaf>
+      <file leaf-file-name="rabbitmq.properties" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/rabbitmq.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="76">
+              <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="applicationContext.xml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1880">
+              <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="StudentController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/controller/StudentController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="118" column="40" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="c3p0-config.properties" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/resources/c3p0-config.properties">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="38">
+              <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ViewController.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/controller/ViewController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="171">
+              <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="40" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+          <provider selected="true" editor-type-id="text-editor">
+            <state>
+              <caret column="71" lean-forward="true" selection-start-column="71" selection-end-column="71" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -523,11 +108,6 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$USER_HOME$" />
-  </component>
-  <component name="GradleLocalSettings">
-    <option name="externalProjectsViewState">
-      <projects_view />
-    </option>
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -561,7 +141,6 @@
         <option value="$PROJECT_DIR$/src/main/java/com/biz/std/repository/ScoreRepository.java" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/inputScore.jsp" />
         <option value="$PROJECT_DIR$/src/main/resources/applicationContext.xml" />
-        <option value="$PROJECT_DIR$/src/main/resources/c3p0-config.properties" />
         <option value="$PROJECT_DIR$/src/main/java/com/biz/std/repository/StudentRepository.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/biz/std/controller/StudentController.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/biz/std/controller/SubjectController.java" />
@@ -583,6 +162,7 @@
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/updateGrade.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/updateStudent.jsp" />
         <option value="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/updateSubject.jsp" />
+        <option value="$PROJECT_DIR$/src/main/resources/c3p0-config.properties" />
       </list>
     </option>
   </component>
@@ -612,6 +192,9 @@
       </MavenImportingSettings>
     </option>
   </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
   <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="-7" />
     <option name="width" value="1934" />
@@ -619,152 +202,83 @@
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1">
-      <flattenPackages />
-      <showMembers />
-      <showModules />
-      <showLibraryContents />
-      <hideEmptyPackages />
-      <abbreviatePackageNames />
-      <autoscrollToSource />
-      <autoscrollFromSource />
-      <sortByType />
-      <manualOrder />
+    <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="AndroidView" />
       <pane id="Scope" />
-      <pane id="PackagesPane" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
+              <item name="studentManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentManage" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
+              <item name="studentManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentManage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
+              <item name="studentManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentManage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
+              <item name="studentManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentManage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="std" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
+              <item name="studentManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentManage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="std" type="462c0819:PsiDirectoryNode" />
-              <item name="converter" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
+              <item name="studentManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentManage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="std" type="462c0819:PsiDirectoryNode" />
-              <item name="model" type="462c0819:PsiDirectoryNode" />
+              <item name="controller" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="std" type="462c0819:PsiDirectoryNode" />
-              <item name="repository" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="std" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
+              <item name="studentManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentManage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
+              <item name="studentManage" type="b2602c69:ProjectViewProjectNode" />
+              <item name="studentManage" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="webapp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springStudentManage" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
-              <item name="WEB-INF" type="462c0819:PsiDirectoryNode" />
-              <item name="views" type="462c0819:PsiDirectoryNode" />
-              <item name="jsp" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springStudentManage" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="Scratches" />
+      <pane id="AndroidView" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
-    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.General" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="F:/bysj/studentRedisManage" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -793,6 +307,28 @@
     </option>
   </component>
   <component name="RunManager" selected="Tomcat Server.tomcat">
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+    </configuration>
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <patterns />
+    </configuration>
     <configuration name="Unnamed" type="MavenRunConfiguration" factoryName="Maven">
       <MavenSettings>
         <option name="myGeneralSettings" />
@@ -809,6 +345,7 @@
                 <option value="package" />
               </list>
             </option>
+            <option name="pomFileName" />
             <option name="profilesMap">
               <map />
             </option>
@@ -818,63 +355,7 @@
         </option>
       </MavenSettings>
     </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <module />
-    </configuration>
-    <configuration default="true" type="Application" factoryName="Application">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="ENABLE_SWING_INSPECTOR" value="false" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <module name="" />
-      <envs />
-    </configuration>
-    <configuration default="true" type="JUnit" factoryName="JUnit">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
-      <module name="" />
-      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
-      <option name="PROGRAM_PARAMETERS" />
-      <predefined_log_file id="idea.log" enabled="true" />
-    </configuration>
-    <configuration default="true" type="Remote" factoryName="Remote">
-      <option name="USE_SOCKET_TRANSPORT" value="true" />
-      <option name="SERVER_MODE" value="false" />
-      <option name="SHMEM_ADDRESS" value="javadebug" />
-      <option name="HOST" value="localhost" />
-      <option name="PORT" value="5005" />
-    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
       <option name="ALTERNATIVE_JRE_PATH" />
       <option name="SUITE_NAME" />
@@ -887,15 +368,12 @@
       <option name="PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
       <option name="OUTPUT_DIRECTORY" />
-      <option name="ANNOTATION_TYPE" />
-      <option name="ENV_VARIABLES" />
       <option name="PASS_PARENT_ENVS" value="true" />
       <option name="TEST_SEARCH_SCOPE">
         <value defaultName="singleModule" />
       </option>
       <option name="USE_DEFAULT_REPORTERS" value="false" />
       <option name="PROPERTIES_FILE" />
-      <envs />
       <properties />
       <listeners />
     </configuration>
@@ -916,7 +394,6 @@
       <predefined_log_file id="Tomcat Manager" enabled="false" />
       <predefined_log_file id="Tomcat Host Manager" enabled="false" />
       <predefined_log_file id="Tomcat Localhost Access" enabled="false" />
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <RunnerSettings RunnerId="Debug">
         <option name="DEBUG_PORT" value="8369" />
       </RunnerSettings>
@@ -971,13 +448,10 @@
         </option>
       </method>
     </configuration>
-    <list size="2">
-      <item index="0" class="java.lang.String" itemvalue="Maven.Unnamed" />
-      <item index="1" class="java.lang.String" itemvalue="Tomcat Server.tomcat" />
+    <list>
+      <item itemvalue="Maven.Unnamed" />
+      <item itemvalue="Tomcat Server.tomcat" />
     </list>
-  </component>
-  <component name="ShelveChangesManager" show_recycled="false">
-    <option name="remove_strategy" value="false" />
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -1005,49 +479,52 @@
       <workItem from="1519610001492" duration="4761000" />
       <workItem from="1519614909255" duration="259000" />
       <workItem from="1519631997611" duration="2463000" />
+      <workItem from="1530083261329" duration="1930000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="105695000" />
+    <option name="totallyTimeSpent" value="107625000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-8" y="-8" width="1936" height="1066" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
-      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Maven Projects" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="true" content_ui="tabs" />
-      <window_info id="CDI" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32921588" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="JSF" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39910814" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6688963" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Spring" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32998884" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.5618729" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.26154673" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32975295" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
-      <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="true" content_ui="tabs" />
-      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
-      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32664436" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
-      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" weight="0.32938644" />
+      <window_info anchor="bottom" id="Application Servers" order="13" weight="0.3299435" />
+      <window_info anchor="bottom" id="Maven Projects" order="14" side_tool="true" />
+      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
+      <window_info id="Capture Tool" order="2" />
+      <window_info id="Designer" order="7" />
+      <window_info anchor="right" id="Database" order="5" weight="0.32921588" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info id="UI Designer" order="3" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39910814" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="6" />
+      <window_info id="Image Layers" order="4" />
+      <window_info anchor="bottom" id="Java Enterprise" order="9" />
+      <window_info anchor="right" id="Capture Analysis" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.6688963" />
+      <window_info anchor="bottom" id="Version Control" order="10" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Spring" order="11" weight="0.32998884" />
+      <window_info anchor="bottom" id="Terminal" order="12" weight="0.5614224" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.26439232" />
+      <window_info id="Web" order="5" side_tool="true" />
+      <window_info anchor="right" id="Theme Preview" order="8" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="right" id="Bean Validation" order="10" weight="0.32975295" />
+      <window_info anchor="right" id="JSF" order="9" />
+      <window_info anchor="right" id="Commander" order="0" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Messages" order="8" weight="0.32664436" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="right" id="CDI" order="4" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -1056,51 +533,28 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager />
-    <watches-manager />
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$USER_HOME$" />
+    </ignored-roots>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/resources/springmvc.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="375">
-          <caret line="42" column="22" lean-forward="true" selection-start-line="42" selection-start-column="22" selection-end-line="42" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.3.RELEASE/spring-data-commons-2.0.3.RELEASE.jar!/org/springframework/data/repository/PagingAndSortingRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="12" column="62" lean-forward="true" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.3.RELEASE/spring-data-jpa-2.0.3.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="175">
-          <caret line="15" column="52" lean-forward="false" selection-start-line="15" selection-start-column="52" selection-end-line="15" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-jpa/2.0.3.RELEASE/spring-data-jpa-2.0.3.RELEASE.jar!/org/springframework/data/jpa/repository/JpaRepository.class" />
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="456">
           <caret line="37" column="18" lean-forward="true" selection-start-line="37" selection-start-column="18" selection-end-line="37" selection-end-column="18" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/vo/Gender.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="424">
-          <caret line="25" column="27" lean-forward="false" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/controller/ViewController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="31" column="1" lean-forward="true" selection-start-line="31" selection-start-column="1" selection-end-line="31" selection-end-column="1" />
+          <caret line="25" column="27" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="27" />
         </state>
       </provider>
     </entry>
@@ -1115,21 +569,21 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/service/GradeService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="18" column="8" lean-forward="false" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="8" />
+          <caret line="18" column="8" selection-start-line="18" selection-start-column="4" selection-end-line="18" selection-end-column="8" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/controller/GradeController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="415">
-          <caret line="59" column="38" lean-forward="false" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
+          <caret line="59" column="38" selection-start-line="59" selection-start-column="38" selection-end-line="59" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/addStudent.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="265">
-          <caret line="199" column="0" lean-forward="true" selection-start-line="199" selection-start-column="0" selection-end-line="199" selection-end-column="0" />
+          <caret line="199" lean-forward="true" selection-start-line="199" selection-end-line="199" />
         </state>
       </provider>
     </entry>
@@ -1157,21 +611,14 @@
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/msg2.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-2155">
-          <caret line="203" column="56" lean-forward="false" selection-start-line="203" selection-start-column="56" selection-end-line="203" selection-end-column="56" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="24">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
+          <caret line="203" column="56" selection-start-line="203" selection-start-column="56" selection-end-line="203" selection-end-column="56" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/service/SubjectService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="24" column="8" lean-forward="false" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="8" />
+          <caret line="24" column="8" selection-start-line="24" selection-start-column="4" selection-end-line="24" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1179,14 +626,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
           <caret line="22" column="34" lean-forward="true" selection-start-line="22" selection-start-column="34" selection-end-line="22" selection-end-column="34" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/service/ScoreService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="5" column="8" lean-forward="false" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="8" />
+          <caret line="5" column="8" selection-start-line="5" selection-start-column="4" selection-end-line="5" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -1197,103 +643,81 @@
         </state>
       </provider>
     </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.3.RELEASE/spring-data-commons-2.0.3.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="288">
-          <caret line="15" column="16" lean-forward="false" selection-start-line="15" selection-start-column="16" selection-end-line="15" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/c3p0-config.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="0" lean-forward="false" selection-start-line="7" selection-start-column="0" selection-end-line="7" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/data/spring-data-commons/2.0.3.RELEASE/spring-data-commons-2.0.3.RELEASE.jar!/org/springframework/data/repository/CrudRepository.class" />
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/vo/SubjectVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-150">
-          <caret line="16" column="24" lean-forward="false" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/controller/StudentController.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="134" column="60" lean-forward="false" selection-start-line="134" selection-start-column="60" selection-end-line="134" selection-end-column="60" />
+          <caret line="16" column="24" selection-start-line="16" selection-start-column="24" selection-end-line="16" selection-end-column="24" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="215">
-          <caret line="32" column="38" lean-forward="false" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
-          <folding />
+          <caret line="32" column="38" selection-start-line="32" selection-start-column="38" selection-end-line="32" selection-end-column="38" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/service/StudentService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="432">
-          <caret line="20" column="0" lean-forward="true" selection-start-line="20" selection-start-column="0" selection-end-line="20" selection-end-column="0" />
+          <caret line="20" lean-forward="true" selection-start-line="20" selection-end-line="20" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/vo/StudentVO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="242">
-          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="30" />
+          <caret line="17" column="30" selection-start-line="17" selection-start-column="19" selection-end-line="17" selection-end-column="30" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/repository/StudentRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
-          <caret line="10" column="16" lean-forward="false" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
+          <caret line="10" column="16" selection-start-line="10" selection-start-column="16" selection-end-line="10" selection-end-column="16" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/repository/SubjectRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="12" column="78" lean-forward="false" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
+          <caret line="12" column="78" selection-start-line="12" selection-start-column="78" selection-end-line="12" selection-end-column="78" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/repository/ScoreRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="96">
-          <caret line="9" column="3" lean-forward="false" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
+          <caret line="9" column="3" selection-start-line="9" selection-start-column="3" selection-end-line="9" selection-end-column="3" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/controller/SubjectController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
-          <caret line="147" column="44" lean-forward="false" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
+          <caret line="147" column="44" selection-start-line="147" selection-start-column="44" selection-end-line="147" selection-end-column="44" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/controller/ScoreController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
+          <caret line="33" selection-start-line="33" selection-end-line="33" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/repository/GradeRepository.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
-          <caret line="12" column="17" lean-forward="false" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
+          <caret line="12" column="17" selection-start-line="12" selection-start-column="17" selection-end-line="12" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/model/ScorePO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="528">
-          <caret line="24" column="11" lean-forward="false" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
-          <folding />
+          <caret line="24" column="11" selection-start-line="24" selection-start-column="11" selection-end-line="24" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -1307,40 +731,28 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/service/GradeServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1554">
-          <caret line="97" column="29" lean-forward="false" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
+          <caret line="97" column="29" selection-start-line="97" selection-start-column="29" selection-end-line="97" selection-end-column="29" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/service/SubjectServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="480">
-          <caret line="176" column="40" lean-forward="false" selection-start-line="176" selection-start-column="40" selection-end-line="176" selection-end-column="40" />
+          <caret line="176" column="40" selection-start-line="176" selection-start-column="40" selection-end-line="176" selection-end-column="40" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/converter/GenderConverter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="168">
-          <caret line="9" column="27" lean-forward="false" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-          <folding />
+          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/model/SubjectPO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="504">
-          <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-216">
-          <caret line="12" column="65" lean-forward="false" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
-          <folding>
-            <element signature="e#2177#2196#0" expanded="true" />
-          </folding>
+          <caret line="37" selection-start-line="37" selection-end-line="37" />
         </state>
       </provider>
     </entry>
@@ -1348,15 +760,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1080">
           <caret line="52" column="57" lean-forward="true" selection-start-line="52" selection-start-column="57" selection-end-line="52" selection-end-column="57" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/listStudent.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-1572">
-          <caret line="382" column="56" lean-forward="false" selection-start-line="382" selection-start-column="56" selection-end-line="382" selection-end-column="56" />
-          <folding />
+          <caret line="382" column="56" selection-start-line="382" selection-start-column="56" selection-end-line="382" selection-end-column="56" />
         </state>
       </provider>
     </entry>
@@ -1364,7 +774,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-114">
           <caret line="484" column="80" lean-forward="true" selection-start-line="484" selection-start-column="80" selection-end-line="484" selection-end-column="80" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1372,15 +781,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="341">
           <caret line="353" column="77" lean-forward="true" selection-start-line="353" selection-start-column="77" selection-end-line="353" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/views/jsp/addGrade.jsp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="350">
-          <caret line="157" column="8" lean-forward="false" selection-start-line="157" selection-start-column="8" selection-end-line="219" selection-end-column="32" />
-          <folding />
+          <caret line="157" column="8" selection-start-line="157" selection-start-column="8" selection-end-line="219" selection-end-column="32" />
         </state>
       </provider>
     </entry>
@@ -1388,7 +795,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="337" column="48" lean-forward="true" selection-start-line="337" selection-start-column="48" selection-end-line="337" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1396,7 +802,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="358">
           <caret line="329" column="48" lean-forward="true" selection-start-line="329" selection-start-column="48" selection-end-line="329" selection-end-column="48" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1404,7 +809,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="95">
           <caret line="356" column="99" lean-forward="true" selection-start-line="356" selection-start-column="99" selection-end-line="356" selection-end-column="99" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1412,15 +816,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="382">
           <caret line="333" column="77" lean-forward="true" selection-start-line="333" selection-start-column="77" selection-end-line="333" selection-end-column="77" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/model/StudentSubjectPO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="912">
-          <caret line="54" column="18" lean-forward="false" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
-          <folding />
+          <caret line="54" column="18" selection-start-line="54" selection-start-column="18" selection-end-line="54" selection-end-column="18" />
         </state>
       </provider>
     </entry>
@@ -1428,7 +830,54 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3887">
           <caret line="225" column="52" lean-forward="true" selection-start-line="225" selection-start-column="52" selection-end-line="225" selection-end-column="52" />
-          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/rabbitmq.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="76">
+          <caret line="4" column="22" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/applicationContext.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1880">
+          <caret line="12" column="65" selection-start-line="12" selection-start-column="65" selection-end-line="12" selection-end-column="65" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/controller/ViewController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="11" column="22" lean-forward="true" selection-start-line="11" selection-start-column="22" selection-end-line="11" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/403.jsp">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="71" lean-forward="true" selection-start-column="71" selection-end-column="71" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/biz/std/controller/StudentController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="118" column="40" selection-start-line="118" selection-start-column="22" selection-end-line="118" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/resources/c3p0-config.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="38">
+          <caret line="2" column="16" lean-forward="true" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
         </state>
       </provider>
     </entry>
